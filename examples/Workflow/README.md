@@ -20,7 +20,7 @@ The main `Program.cs` file contains the main setup of the app, including the reg
 To run the workflow web app locally, run this command in the `WorkflowWebApp` directory:
 
 ```sh
-dapr run --app-id wfwebapp dotnet run
+dapr run --app-id wfwebapp -- dotnet run
 ```
 
 The application will listen for HTTP requests at `http://localhost:10080`.
