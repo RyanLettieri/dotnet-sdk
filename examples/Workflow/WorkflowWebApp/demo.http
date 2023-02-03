@@ -13,4 +13,4 @@ Content-Type: application/json
 GET http://localhost:10080/orders/xxx
 
 ### Query dapr sidecar directly
-GET http://localhost:41121/v1.0-alpha1/workflows/dapr/wfwebapp/xxx
+GET http://localhost:3500/v1.0-alpha1/workflows/dapr/wfwebapp/xxx
